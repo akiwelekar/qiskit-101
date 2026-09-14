@@ -1,0 +1,5 @@
+qiskit[visualization]==2.5.2
+qiskit-aer==0.17.2
+qiskit-ibm-runtime==0.49.0
+jupyterlab>=4.0,<5
+pylatexenc>=2.10

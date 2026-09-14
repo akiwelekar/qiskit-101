@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this course, please cite it as below."
+title: "Qiskit 101: Hands-on Quantum Computing with Qiskit"
+type: software
+authors:
+  - family-names: Kiwelekar
+    given-names: Arvind W.
+repository-code: "https://github.com/akiwelekar/qiskit-101"
+license: MIT
+version: 1.0.0
+date-released: 2026-09-14
+keywords:
+  - quantum computing
+  - Qiskit
+  - quantum education
+  - competency-based learning
