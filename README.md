@@ -10,17 +10,17 @@ A five-lab, competency-based introduction to quantum computing with Qiskit. The 
 
 ## Course pathway
 
-| Lab | Topic | Primary outcome | Open in Colab |
-|---|---|---|---|
-| 00 | Setup and environment | Configure Qiskit in Google Colab and verify the installation | [Open Lab 00](https://colab.research.google.com/github/akiwelekar/qiskit-101/blob/main/notebooks/00_setup.ipynb) |
-| 01 | Single-qubit computing | Prepare, transform, measure, and visualize single-qubit states | [Open Lab 01](https://colab.research.google.com/github/akiwelekar/qiskit-101/blob/main/notebooks/01_single_qubit.ipynb) |
-| 02 | Multi-qubit computing | Build multi-qubit circuits and investigate entanglement | [Open Lab 02](https://colab.research.google.com/github/akiwelekar/qiskit-101/blob/main/notebooks/02_multi_qubit.ipynb) |
-| 03 | Circuit to hardware | Transpile and execute circuits on IBM Quantum hardware | [Open Lab 03](https://colab.research.google.com/github/akiwelekar/qiskit-101/blob/main/notebooks/03_quantum_hardware.ipynb) |
-| 04 | Algorithms, noise, and mini-project | Implement a complete workflow and analyze noisy results | [Open Lab 04](https://colab.research.google.com/github/akiwelekar/qiskit-101/blob/main/notebooks/04_algorithms_noise_project.ipynb) |
+| Lab | Topic | Primary outcome | Notebook | Slides |
+|---|---|---|---|---|
+| 00 | Setup and environment | Configure Qiskit in Google Colab and verify the installation | [Notebook](notebooks/00_setup.ipynb) · [Open in Colab](https://colab.research.google.com/github/akiwelekar/qiskit-101/blob/main/notebooks/00_setup.ipynb) | [Slides](Slides/Lab_00_.pptx.pdf) |
+| 01 | Single-qubit computing | Prepare, transform, measure, and visualize single-qubit states | [Notebook](notebooks/01_single_qubit.ipynb) · [Open in Colab](https://colab.research.google.com/github/akiwelekar/qiskit-101/blob/main/notebooks/01_single_qubit.ipynb) | [Slides](Slides/Lab01.pptx.pdf) |
+| 02 | Multi-qubit computing | Build multi-qubit circuits and investigate entanglement | [Notebook](notebooks/02_multi_qubit.ipynb) · [Open in Colab](https://colab.research.google.com/github/akiwelekar/qiskit-101/blob/main/notebooks/02_multi_qubit.ipynb) | [Slides](Slides/Lab_02.pptx.pdf) |
+| 03 | Circuit to hardware | Transpile and execute circuits on IBM Quantum hardware | [Notebook](notebooks/03_quantum_hardware.ipynb) · [Open in Colab](https://colab.research.google.com/github/akiwelekar/qiskit-101/blob/main/notebooks/03_quantum_hardware.ipynb) | [Slides](Slides/Lab03.pptx.pdf) |
+| 04 | Algorithms, noise, and mini-project | Implement a complete workflow and analyze noisy results | [Notebook](notebooks/04_algorithms_noise_project.ipynb) · [Open in Colab](https://colab.research.google.com/github/akiwelekar/qiskit-101/blob/main/notebooks/04_algorithms_noise_project.ipynb) | [Slides](Slides/Lab_04.pptx.pdf) |
 
 ## Getting started
 
-The simplest route is to open a notebook using its **Open in Colab** link and run the cells in order. Lab 03 requires an [IBM Quantum](https://quantum.cloud.ibm.com/) account and API token. Never place an API token directly in a notebook or commit it to GitHub.
+The simplest route is to open a notebook using its **Open in Colab** link and run the cells in order. Use the corresponding slide deck before each laboratory session to review the concepts, objectives, and activities. Lab 03 requires an [IBM Quantum](https://quantum.cloud.ibm.com/) account and API token. Never place an API token directly in a notebook or commit it to GitHub.
 
 For local use:
 
@@ -33,15 +33,17 @@ python -m pip install -r requirements.txt
 jupyter lab
 ```
 
-## Recommended sequence
+## Recommended learning sequence
 
-Complete the labs in numerical order. Each notebook combines explanations, executable examples, observations, and competency assessment. Learners should modify circuits, predict results before execution, and record interpretations rather than only running the supplied cells.
+Complete the labs in numerical order. Each lab follows a **lecture → hands-on notebook → observation → competency assessment** pattern. Learners should modify circuits, predict results before execution, and record interpretations rather than only running the supplied cells.
 
 ## Repository contents
 
 ```text
 qiskit-101/
 ├── notebooks/             # Five learner notebooks
+├── Slides/                # Lecture/lab presentation decks
+│   └── README.md          # Slide guide and notebook mapping
 ├── docs/                  # Course overview, instructor guide, troubleshooting
 ├── .gitignore
 ├── CITATION.cff
